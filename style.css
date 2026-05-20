@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    background-image: url('galaxy.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 50px;
+}
+h1 {
+      font-size: 70px;
+      text-align: center;
+    text-shadow: 
+    0 0 10px lightblue,
+    0 0 20px lightblue;
+}
+.box {
+    background-color: rgba(255,255,255,0.45);
+    padding: 40px;
+    border-radius: 25px;
+    margin: auto;
+    backdrop-filter: blur(15px);
+    max-width: 700px;
+    box-shadow: 0 0 30px rgba(173,216,230,0.6); 
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 22px;
+}
+button {
+    background-color: lightblue;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
+#projects{
+    margin-top: 500px;
+    text-align: center;
+    padding-bottom: 300px;
+}
+.cute-button{
+
+display:inline-block;
+
+margin-top:25px;
+
+padding:16px 32px;
+
+background:
+rgba(173,216,230,0.15);
+
+color:white;
+
+text-decoration:none;
+
+border:
+
+1px solid rgba(173,216,230,0.5);
+
+border-radius:999px;
+
+font-size:18px;
+
+transition:0.4s;
+
+backdrop-filter:blur(10px);
+
+box-shadow:
+0 0 20px rgba(173,216,230,0.3);
+
+}
+
+
+
+.cute-button:hover{
+
+transform:
+translateY(-4px);
+
+background:
+rgba(173,216,230,0.3);
+
+box-shadow:
+0 0 40px rgba(173,216,230,0.8);
+
+}
+button:hover {
+    transform:scale(1.1);
+}
+.section-box{
+    background:
+    rgba(0,0,0,0.45);
+    padding:60px;
+    border-radius:30px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 40px rgba(173,216,230,0.3);
+    text-align:center;
+}
+.section-box h2{
+
+font-size:55px;
+
+letter-spacing:3px;
+
+text-transform:uppercase;
+
+color:white;
+
+text-shadow:
+
+0 0 20px lightblue;
+
+margin-bottom:30px;
+
+}
+.section-box p{
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+.project-bubble{
+    background: rgba(255,255,255,0.15);
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 999px;
+    text-align: center;
+    box-shadow: 0 0 30px lightblue
+}
